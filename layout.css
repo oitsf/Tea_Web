@@ -18,3 +18,48 @@ body{
 	width:980px;
 	margin:0 auto;
 }
+
+/* ====== 標題區 ====== */
+#header{
+	height:450px;
+	padding-left:250px;
+}
+#header ul{}
+#header li{
+	float:left;
+	list-style-type:none;
+}
+#header li a{
+	display:block;
+	width:100px;
+	height:50px;
+	text-indent:-9999px;
+}
+#header li.aboutus a{
+	background-image:url(images/header_icon1.png);
+}
+#header li.news a{
+	background-image:url(images/header_icon2.png);
+}
+#header li.menu a{
+	background-image:url(images/header_icon3.png);
+}
+#header li.reservation a{
+	background-image:url(images/header_icon4.png);
+}
+#header li.contact a{
+	background-image:url(images/header_icon5.png);
+}
+#header h1{
+	text-indent:-9999px;
+}
+
+/* ====== 欄一區 ====== */
+
+/* ====== 欄二區 ====== */
+
+/* ====== 欄三區 ====== */
+
+/* ====== 欄四區 ====== */
+
+/* ====== 版權宣告區 ====== */
