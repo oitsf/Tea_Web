@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+div,h2,h3,h4,li,a{ behavior: url(iepngfix.htc) }
 
 *{
 	padding:0;
@@ -162,4 +163,13 @@ body{
 /* ====== 版權宣告區 ====== */
 #footer{
 	clear:both;
+	height:90px;
+	background-image:url(images/footer_bg.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+#footer h4{
+	font-size:12px;
+	line-height:90px;
+	text-align:center;
 }
